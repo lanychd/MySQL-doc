@@ -1,3 +1,6 @@
 ## 详细学习记录
+
 1.上午在老师的指导下在linux系统下安装了mysql
-* 
+3.安装了mysql-workbench
+2.创建了数据库stu
+3.在数据库stu下创建了四个表： information， school,course,score
