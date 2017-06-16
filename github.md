@@ -9,7 +9,7 @@
 * 第二步, 使用git init命令, 将当前目录创建成git仓库.    
 * git init   
 * 第三步，查看仓库下的隐藏文件   
-* ls -al   
+* ls -al       
 2.增加文件   
 * 在空目录下创建一个文件README.   
 * touch README    
@@ -20,14 +20,14 @@
 * 把文件加仓库中.    
 * git add README   
 * 再次查看当前目录下文件的状态.
-* git status   
+* git status        
 3. 文件的提交   
-* git commit    
+* git commit        
 4. 配置用户信息    
 * 配置用户名   
 * git config --global user.name   
 * 配置用户邮箱    
-* git config --global user.email    
+* git config --global user.email        
 5. 配置编辑提交信息的编辑器    
 * git config --global core.editor vim    
 ## 查看提交信息   
