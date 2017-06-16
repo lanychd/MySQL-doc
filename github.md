@@ -4,9 +4,9 @@
 ## 创建版本库：  
 1.仓库的创建  
 * 第一步, 先创建一个目录, 目录用来存放仓库: mkdir html         
-cd html    
+       cd html    
 * 第二步, 使用git init命令, 将当前目录创建成git仓库: git init   
-* 第三步，查看仓库下的隐藏文件: ls -al       
+* 第三步，查看仓库下的隐藏文件: ls -al      
 2.增加文件   
 * 在空目录下创建一个文件README: touch README    
 * 编辑这个文件： vim README    
