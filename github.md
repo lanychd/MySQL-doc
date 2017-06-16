@@ -38,11 +38,11 @@
 7.再次提交  
 * git commit  
 ## 版本回退  
-1.想回退到上次提交的版本, 那么需要使用git reset命令.  
+1.想回退到上次提交的版本, 那么需要使用git reset命令.       
 * git reset --hard commitID  
 2.再使用git log命令不会查看到所有log的相关信息, 不会获取到后一个提交的CommitID.         
 * git log   
-3.使用git reflog命令查看后一次提交的CommitID  
+3.使用git reflog命令查看后一次提交的CommitID        
 * git reflog
 ## 从版本库中忽略文件  
 1. 在仓库中忽略垃圾文件  
