@@ -1,9 +1,8 @@
 # Linux 基本命令的使用      
 
 ## vim 基本使用       
-   1. 快捷键的使用：     
-      
-    i：在当前字符的左边插入     
+1. 快捷键的使用：     
+    i：在当前字符的左边插入     
     I：在当前行首插入     
     a：在当前字符的右边插入     
     A：在当前行尾插入     
@@ -33,10 +32,10 @@
  ## 文件的压缩和解压      
     1.使用gzip和gunzip对文件进行压缩和解压缩      
       gzip  filename    
-      gunzip filename      
+      gunzip filename      
     2.使用bzip2和bunzip2对文件进行压缩和解压缩    
       bzip2  filename      
-      bunzip2  filename    
+      bunzip2  filename    
     3.使用tar对文件和目录进行压缩和解压缩     
       tar czvf  file.tar.gz dir     
       tar xvf  file.tar.gz    
