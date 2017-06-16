@@ -19,7 +19,7 @@
     u: 恢复      
     
 ## 文件的基本操作     
-     1.创建一个目录： mkdir dir      
+    1.创建一个目录： mkdir dir      
      2.删除一个目录： rm -rf dir     
      3.打开一个目录： cd dir      
      4.查看目录下的文件： ls     
@@ -34,7 +34,7 @@
       gzip  filename    
       gunzip filename      
     2.使用bzip2和bunzip2对文件进行压缩和解压缩    
-      bzip2  filename      
+      bzip2  filename      
       bunzip2  filename    
     3.使用tar对文件和目录进行压缩和解压缩     
       tar czvf  file.tar.gz dir     
