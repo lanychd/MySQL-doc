@@ -1,7 +1,7 @@
 ##  学生成绩信息表
 
 ```sql
-CREATE TABLE  score
+   CREATE TABLE  score
   (Ino CHAR(20) NOT NULL,
    Cno CHAR(20) UNIQUE NOT NULL,
    grade SMALLINT ,
