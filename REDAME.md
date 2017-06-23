@@ -5,6 +5,22 @@
 * [学生院校表](./DB/school.md)
 * [学生成绩表](./DB/score.md)
 * [学生课程表](./DB/course.md)
+* [学生信息添加功能](./DB/add.md)
+* [学生信息查询功能](./DB/sel.md)
+* [学生信息修改功能](./DB/mod.md)
+* [学生信息删除功能](./DB/del.md)
+* [成绩信息添加功能](./DB/addscore.md)
+* [成绩信息查询功能](./DB/selscore.md)
+* [成绩信息修改功能](./DB/modscore.md)
+* [课程信息删除功能](./DB/delscore.md)
+* [课程信息添加功能](./DB/addcourse.md)
+* [课程信息查询功能](./DB/selcourse.md)
+* [课程信息修改功能](./DB/modcourse.md)
+* [课程信息删除功能](./DB/delcourse.md)
+* [院系信息添加功能](./DB/addschool.md)
+* [院系信息查询功能](./DB/selschool.md)
+* [院系信息修改功能](./DB/modschool.md)
+* [院系信息删除功能](./DB/delschool.md)
 
 
 ## 课程设计
