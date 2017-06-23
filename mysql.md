@@ -1,7 +1,7 @@
 ## 更新源
 1.用vim打开源列表文件   
   sudo vim /etc/apt/sources.list
-2.将下面的源粘贴到源列表里    
+2.将下面的源粘贴到源列表里        
 deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse    
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse   
 deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted universe multiverse    
