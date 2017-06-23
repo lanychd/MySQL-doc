@@ -20,25 +20,25 @@
     
 ## 文件的基本操作     
 1.创建一个目录： mkdir dir          
-     2.删除一个目录： rm -rf dir     
-     3.打开一个目录： cd dir      
-     4.查看目录下的文件： ls     
-     5.查看目录下文件的详细信息： ls -al      
-     6.查看目录下文件的隐藏文件： ls -a    
-     7.创建一个文件：touch file      
-     8.删除一个文件：rm -rf file     
-     9.目录下查找文件：find  ./dir  -name  "filename"      
+2.删除一个目录： rm -rf dir     
+3.打开一个目录： cd dir     
+4.查看目录下的文件： ls     
+5.查看目录下文件的详细信息： ls -al      
+6.查看目录下文件的隐藏文件： ls -a    
+7.创建一个文件：touch file      
+8.删除一个文件：rm -rf file     
+9.目录下查找文件：find  ./dir  -name  "filename"      
      
- ## 文件的压缩和解压      
-    1.使用gzip和gunzip对文件进行压缩和解压缩      
-      gzip  filename    
-      gunzip filename      
-    2.使用bzip2和bunzip2对文件进行压缩和解压缩    
-      bzip2  filename      
-      bunzip2  filename    
-    3.使用tar对文件和目录进行压缩和解压缩     
-      tar czvf  file.tar.gz dir     
-      tar xvf  file.tar.gz    
+## 文件的压缩和解压      
+1.使用gzip和gunzip对文件进行压缩和解压缩      
+  gzip  filename     
+  gunzip filename    
+2.使用bzip2和bunzip2对文件进行压缩和解压缩    
+  bzip2  filename    
+  bunzip2  filename     
+3.使用tar对文件和目录进行压缩和解压缩      
+  tar czvf  file.tar.gz dir      
+  tar xvf  file.tar.gz     
 
      
 
