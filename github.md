@@ -55,4 +55,43 @@
 * git format-patch -p1  
 ## git打包patch  
 * git am patch-name  
-     
+
+## 创建分支 
+* git仓库初始化创建的时候, 会为我们自动创建一个master的主分支:git branch branch-name
+* 可以从任何的地方创建分支, 并切换到新创建的分支上:git checkout -b branch-name
+## 显示分支
+* 显示当前git仓库中有多少个分支:git branch -av
+## 分支切换
+* 想从A分支切换到B分支:git checkout branch-name
+## 删除分支
+* 不能删除当前所在的分支:git branch -D branch-name
+## 合并分支
+* 将develop分支开发的提交, 合并到master分支上:
+  1.git checkout master       
+  2.git merge develop         
+ * 出现冲突的时候可以使用mergetool, 解决冲突:git mergetool
+ # 远程仓库
+ ## 添加远程仓库
+ * 本地有一个git仓库, 我们使用remote add 命令将它添加到远程的仓库中:git remote add origin https://github.com/lanychd/stuinfo.git
+ * 将远程的仓库的信息更步到本地, 这里主要指的示远程仓库的分支和远程库的提交变更信息:git fetch origin
+ ## 向远程仓库提交
+ * 把本地的这次提交也要反映在远程的仓库上:git push origin master
+ * 同步其它分支:git push origin branch-name
+ * 将本地的tags同步(推送)到服务器上:git push origin --tags
+ * 删除远程分支:git push -u origin :branch-name
+ ## 从远程仓库同步
+ * 将源码拉取到本地:git clone url
+ * 将服务器的源码与本地源友进行同步:git pull
+ # 使用github仓库
+ ## github仓库的使用
+ * 先在本地创建一个git仓库, 并做一个提交. 然后再互github远程仓库进行关联      
+ 1.echo "# abc" >> README.md       
+ 2.git init         
+ 3.git add README.md          
+ 3.git commit -m "first commit"         
+ 4.git remote add origin https://github.com/lanychd/stuinfo.git       
+ 5.git push -u origin master       
+ * 本地已经有git仓库了, 那我们现在就直接与github仓库进行关联就可以了         
+ 1.git remote add origin https://github.com/lanychd/stuinfo.git       
+ 2.git push -u origin master       
+ * 还可以用clone直接去下载这个项目, 这也是最常用下载或拉取github仓库的方法:git clone https://github.com/lanychd/stuinfo.git
