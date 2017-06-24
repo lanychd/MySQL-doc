@@ -1,5 +1,9 @@
 ## 技术文档
 
+
+* [Linux](./Linux.md)
+* [github](./github.md)
+* [MySQL](./MySQL.md)
 * [创建数据库](./DB/database.md)
 * [学生信息表](./DB/information.md)
 * [学生院校表](./DB/school.md)
